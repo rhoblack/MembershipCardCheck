@@ -10,3 +10,7 @@ file db를 이용해 카드 멤버 확인 후 Pass or Fail을 결정한다.
 2. 멤버십 카드 등록
 3. 멤버십 카드 삭제
 4. 멤버십 카드 pass일 경우 motor open
+
+# Software Architecture
+
+![image](https://user-images.githubusercontent.com/38875593/188408676-a02061fa-3438-4864-976c-26040967f8d8.png)
