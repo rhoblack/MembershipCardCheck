@@ -3,7 +3,10 @@
 
 int main(void)
 {
-    mfrc522 rfid(new SPI(10, 3000000));
+    int mfrc522_ss = 10;
+    int spi_speed = 3000000;
+
+    mfrc522 rfid(new SPI(mfrc522_ss, spi_speed));
     uint8_t byte;
     uint8_t str[MAX_LEN];
     byte = 0x55; // just to check that byte is getting loaded and printed

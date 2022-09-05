@@ -1,5 +1,5 @@
 add_executable(${PROJECT_NAME}
-    main.cpp
+    ./main.cpp
     ./hw/rfid/mfrc522.cpp
     ./hw/spi/SPI.cpp
 )
